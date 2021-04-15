@@ -140,9 +140,7 @@ class _LoginPage extends StatelessWidget {
                   text: 'Sign in with Facebook',
                   imagePath: 'assets/icon_facebook.png',
                   color: Colors.blueAccent,
-                  onTap: () {
-                    //TODO: Que pedorron
-                  },
+                  onTap: () => authCubit.signInWithFacebook(),
                 ),
                 SizedBox(height: 8),
                 _LoginButton(
