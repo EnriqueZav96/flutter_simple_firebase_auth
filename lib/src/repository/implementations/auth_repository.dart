@@ -12,9 +12,6 @@ class AuthRepository extends AuthRepositoryBase {
   Stream<AuthUser?> get onAuthStateChanged => _firebaseAuth.authStateChanges().asyncMap(_userFromFirebase);
 
   @override
-  AuthUser? get currentUser => _userFromFirebase(_firebaseAuth.currentUser);
-
-  @override
   Future<AuthUser?> createUserWithEmailAndPassword(String email, String password) async {
     final authResult = await _firebaseAuth.createUserWithEmailAndPassword(email: email, password: password);
     return _userFromFirebase(authResult.user);

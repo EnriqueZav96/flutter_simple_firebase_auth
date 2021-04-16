@@ -166,7 +166,7 @@ class _LoginPage extends StatelessWidget {
                   child: Text('Create account'),
                   onPressed: () {
                     authCubit.reset();
-                    Navigator.pushNamed(context, Routes.createEmail);
+                    Navigator.pushNamed(context, Routes.createAccount);
                   },
                 ),
                 SizedBox(height: 48),

@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       navigatorKey: _navigatorKey,
       title: 'Authentication Flow',
-      onGenerateRoute: (RouteSettings settings) => Routes.routes(settings),
+      onGenerateRoute: Routes.routes,
     );
   }
 }

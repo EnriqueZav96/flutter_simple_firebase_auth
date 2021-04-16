@@ -8,7 +8,7 @@ import 'package:flutter_simple_firebase_auth/src/ui/splash_screen.dart';
 class Routes {
   static const splash = '/';
   static const intro = '/intro';
-  static const createEmail = '/createEmail';
+  static const createAccount = '/createAccount';
   static const signInEmail = '/signInEmail';
   static const home = '/home';
 
@@ -22,7 +22,7 @@ class Routes {
         return _buildRoute(IntroScreen.create);
       case home:
         return _buildRoute(HomeScreen.create);
-      case createEmail:
+      case createAccount:
         return _buildRoute(EmailCreate.create);
       case signInEmail:
         return _buildRoute(EmailSignIn.create);

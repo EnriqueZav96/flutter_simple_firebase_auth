@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_simple_firebase_auth/src/bloc/auth_cubit.dart';
 
 class EmailCreate extends StatefulWidget {
