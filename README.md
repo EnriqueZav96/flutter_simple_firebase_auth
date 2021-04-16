@@ -3,10 +3,11 @@
 Flutter Version: Stable 2.0.4
 
 - Authenticate users using [Firebase Authentication](https://firebase.google.com/products/auth)
-- Learn how to use manage authenticated state using [Flutter Bloc](https://pub.dev/packages/flutter_bloc)
+- Learn how to manage authenticated state using [Flutter Bloc](https://pub.dev/packages/flutter_bloc)
 - Separate the app in multiple layers (presentation, business logic, data)
 - Splash Screen
 - Null Safety
+- Login with Google, Facebook, email & anonymously
 
 
 # Architecture
